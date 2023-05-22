@@ -7,6 +7,7 @@ class UserProfile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ProfileScreen(
+      appBar: AppBar(),
       providers: [
         EmailAuthProvider(),
       ],
